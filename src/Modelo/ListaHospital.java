@@ -4,10 +4,18 @@
  */
 package Modelo;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Student
  */
 public class ListaHospital {
+    ArrayList<ListaHospital> ListaHospital;
+
+    public ListaHospital(ArrayList<ListaHospital> ListaHospital) {
+        this.ListaHospital = ListaHospital;
+    }
+    
     
 }
