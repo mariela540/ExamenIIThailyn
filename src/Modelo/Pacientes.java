@@ -65,6 +65,24 @@ public class Pacientes {
     public void setClasificación(String Clasificación) {
         this.Clasificación = Clasificación;
     }
+
+    @Override
+    public String toString() {
+        return "Pacientes{" + "Cedula=" + Cedula + ", Nombre=" + Nombre + ", Fecha=" 
+                + Fecha + ", HoraIn=" + HoraIn + ", HoraOut=" + HoraOut + ", Clasificaci\u00f3n="
+                + Clasificación + '}';
+    }
    
-   
+    public void clasificación(String Clasificación) {
+        switch (Clasificación) {
+            case "Rojo":
+    
+            case  "Amarillo":
+              
+            case  "Verde":
+        }
+        /*if (Clasificación == "Rojo") {
+            
+        }*/
+    }
 }
